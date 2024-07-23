@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="../asset/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Home Dashboard || Welcome</h2>
+        <div class="row">
+            <nav>
+                <ul class="nav nav-pills nav-fill" style="list-style: none;">
+                    <li class="nav-item"><a href="./profile.html">home</a></li>
+                    <li class="nav-item"><a href="./login.html">logout</a></li>
+                </ul>
+            </nav>
+        </div>
+        <table border="1px; solid black;">
+            <tr>
+                <th>Username</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Phonenumber</th>
+                <th>email</th>
+                <th>file</th>
+                <th>Gender</th>
+                <th>Hobbies</th>
+                <th>Password</th>
+                <th>select your city</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td>johndoe</td>
+                <td>John</td>
+                <td>Doe</td>
+                <td>(123) 456-7890</td>
+                <td>johndoe@example.com</td>
+                <td><a href="#">resume.pdf</a></td>
+                <td>Male</td>
+                <td>Reading, Hiking</td>
+                <td>hjgfdsufhuds</td>
+                <td>New York</td>
+                <td><button style="background-color: rgb(0, 132, 255);"><a href="./profileEdit.html">edit</a></button>
+                </td>
+                <td><button style="background-color: rgb(121, 17, 17);" onclick="abc()" id="delete">Delete</button></td>
+            </tr>
+            <tr>
+                <td>janedoe</td>
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>(987) 654-3210</td>
+                <td>janedoe@example.com</td>
+                <td><a href="#">coverletter.pdf</a></td>
+                <td>Female</td>
+                <td>Cooking, Traveling</td>
+                <td>hjsfysdgfu</td>
+                <td>Los Angeles</td>
+                <td><button style="background-color: rgb(0, 132, 255);"><a href="./profileEdit.html">edit</a></button>
+                </td>
+                <td><button style="background-color: rgb(121, 17, 17);" onclick="abc()" id="delete">Delete</button></td>
+            </tr>
+            <tr>
+                <td>alice123</td>
+                <td>Alice</td>
+                <td>Smith</td>
+                <td>(555) 123-4567</td>
+                <td>alice.smith@example.com</td>
+                <td><a href="#">portfolio.pdf</a></td>
+                <td>Female</td>
+                <td>Gardening, Painting</td>
+                <td>hyjgfdvguyfd</td>
+                <td>Chicago</td>
+                <td><button style="background-color: rgb(0, 132, 255);"><a href="./profileEdit.html">edit</a></button>
+                </td>
+                <td><button style="background-color: rgb(121, 17, 17);" onclick="abc()" id="delete">Delete</button></td>
+
+            </tr>
+        </table>
+    </div>
+    <script>
+        function abc() {
+            const deleteItems = document.getElementById('delete');
+            if (deleteItems) {
+
+                alert('are you sure  to delete this items ')
+
+            }
+        }
+    </script>
+</body>
+
+</html>

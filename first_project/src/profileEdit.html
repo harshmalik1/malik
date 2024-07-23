@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="../asset/style.css">
+</head>
+
+<body>
+    <h3>
+        <marquee>Registeration Form</marquee>
+    </h3>
+    <div class="container">
+        <h3>Profile page edit your profile <a href="../profile.html">Go to Back</a></h3>
+        <form action="./login.html" method="post">
+            <div class="row">
+                <label for="">Username</label>
+                <input type="text" name="username" id="username" placeholder="Enter your username">
+            </div>
+            <div class="row">
+                <label for="">Firstname</label>
+                <input type="text" name="Firstname" id="Firstname" placeholder="Enter your first name">
+            </div>
+            <div class="row">
+                <label for="">Lastname</label>
+                <input type="text" name="Lastname" id="Lastname" placeholder="Enter your last name">
+            </div>
+            <div class="row">
+                <label for="">Phonenumber</label>
+                <input type="number" name="Phonenumber" id="Phonenumber" placeholder="Enter your Phonenumber">
+            </div>
+            <div class="row">
+                <label for="">email</label>
+                <input type="eamil" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="row">
+                <label for="">file</label>
+                <input type="file" name="file" id="file" placeholder="Enter your file name">
+            </div>
+            <div class="row">
+                <label for="">Gender</label>
+                <input type="radio" name="Gender" id="Gender" placeholder="Enter your Gender">male
+                <input type="radio" name="Gender" id="Gender" placeholder="Enter your Gender">female
+                <input type="radio" name="Gender" id="Gender" placeholder="Enter your Gender">other
+            </div>
+            <div class="row">
+                <label for="">Hobbies</label>
+                <input type="checkbox" name="Hobbies" id="Hobbies" placeholder="Enter your username">Dance
+                <input type="checkbox" name="Hobbies" id="Hobbies" placeholder="Enter your username">travling
+                <input type="checkbox" name="Hobbies" id="Hobbies" placeholder="Enter your username">graming
+                <input type="checkbox" name="Hobbies" id="Hobbies" placeholder="Enter your username">other
+                <div class="row">
+                    <label for="">Password</label>
+                    <input type="password" name="password" id="password" placeholder="enter your password">
+                </div>
+                <div class="row">
+                    <label for="">select your city</label>
+                    <select name="area" id="area">
+                        <option value="1">rajnagar colony</option>
+                        <option value="2">uttranchal colony</option>
+                        <option value="3">loni border</option>
+                    </select>
+                </div>
+                <span><a href="login.html">already registered? login here</a></span>
+                <div>
+                    <input type="submit" name="submit" value="submit" class="submit">
+
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
